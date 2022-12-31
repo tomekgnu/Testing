@@ -67,5 +67,6 @@ int main(int argc, char *argv[])
     Q_ASSERT(getMaskFromLength("00FF00FF00FF00FF",3) == "00FF00");
     Q_ASSERT(getFinalMask("00FF00") == 0xFF);
     Q_ASSERT(getValueFromPayload("0A0B") == 0x0A0B);
+    
     return 0;
 }
